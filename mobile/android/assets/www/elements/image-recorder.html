@@ -147,18 +147,7 @@ Example 3:
           <div center layout horizontal>
             <div center layout vertical>
               <template bind ref="audioVideoImageButtons"></template>
-              <!-- filters -->
-              <template if="[[ mode == 'video' || mode == 'image' ]]">
-                <paper-radio-group selected="{{ _filterSelected }}" class="spaceToTop">
-                  <template repeat="{{ filter, index in _filters }}">
-                    <paper-radio-button
-                      name="{{ filter }}"
-                      label="{{ filter }}"
-                      on-tap="{{ onFilterTapped }}">
-                    </paper-radio-button>
-                  </template>
-                </paper-radio-group>
-              </template>
+
             </div>
           </div>
         </template>
