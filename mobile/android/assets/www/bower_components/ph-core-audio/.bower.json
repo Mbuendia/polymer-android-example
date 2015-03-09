@@ -1,0 +1,35 @@
+{
+  "author": "Patrick Hillert",
+  "name": "ph-core-audio",
+  "description": "An audio component wrapper with recording functionality.",
+  "version": "0.1.0",
+  "license": "BSD",
+  "keywords": [
+    "audio",
+    "polymer",
+    "core",
+    "record",
+    "audio recording",
+    "record audio",
+    "web-components"
+  ],
+  "main": "ph-core-audio.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.2",
+    "ph-polymer-mixins": "silentHoo/ph-polymer-mixins#^0.1.0",
+    "Recorderjs": "https://github.com/mattdiamond/Recorderjs.git#ac0eb8a7c2601fc4ec1cbd1b1ee49f45a6c79580"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^2.0.0"
+  },
+  "homepage": "https://github.com/silentHoo/ph-core-audio",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "079b8506e9a21e01879d3778c9eff252db4df2d7"
+  },
+  "_source": "git://github.com/silentHoo/ph-core-audio.git",
+  "_target": "^0.1.0",
+  "_originalSource": "silentHoo/ph-core-audio"
+}
